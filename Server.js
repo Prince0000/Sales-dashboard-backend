@@ -3,9 +3,7 @@ const cors = require('cors');
 const app = express();
 const PORT = 5000;
 
-app.use(cors({
-  origin: 'https://master--neon-creponne-400bfd.netlify.app'
-}));
+app.use(cors());
 
 app.use(express.json());
 
